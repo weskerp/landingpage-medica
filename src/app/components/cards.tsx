@@ -9,7 +9,7 @@ const doctors = [
 
 const CardSection = () => {
   return (
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 z-1000 mt-[-2%] mx-6 ">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 z-1000 mt-[-2%] mx-6 min-h-[23.6875rem]">
           {doctors.map((doctor, index) => (
             <div
             key={index}

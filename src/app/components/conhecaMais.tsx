@@ -22,7 +22,7 @@ const ConhecaMais = () => {
           animate={{ x: ["0%", "-50.5%"] }}
           transition={{
             ease: "linear",
-            duration: 5000,
+            duration: 30,
             repeat: Infinity,
           }}
         >

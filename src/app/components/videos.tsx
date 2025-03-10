@@ -11,10 +11,10 @@ const videos = [
 
 const Videos = () => {
     return (
-        <div className="p-6">
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="p-6 w-7/10 flex justify-center">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
                 {videos.map((video, index) => (
-                    <div key={index} className="bg-gray-200 p-4 rounded-lg shadow-lg">
+                    <div key={index} className="p-4 rounded-lg shadow-lg">
                         <div className="relative w-full h-64">
                             <iframe
                                 className="w-full h-full rounded-lg"

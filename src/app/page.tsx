@@ -9,6 +9,12 @@ import CardSection from "./components/cards";
 import Carousel from "./components/carousel";
 import Depoimentos from './components/depoimentos';
 import Videos from './components/videos';
+import ComparacaoCards from './components/comparacaoCard';
+import WhatsappButton from './components/whatsappButton';
+import Procedimentos from './components/procedimentos';
+import Tratamentos from './components/tratamentos';
+import Patologias from './components/patologias';
+import ConhecaMais from './components/conhecaMais';
 
 
 
@@ -37,10 +43,14 @@ export default function Home() {
         <Carousel/>          
         <Depoimentos/>    
         <Videos/>      
-        {/* Botão WhatsApp */}
-        <a href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer" className="mt-10 px-6 py-3 bg-green-500 text-white font-bold rounded-lg shadow-lg hover:bg-green-600">
-          Fale Conosco no WhatsApp
-        </a>
+        <WhatsappButton/>
+        <ComparacaoCards/>
+        <WhatsappButton/>
+        <Procedimentos/>
+        <WhatsappButton/>
+        <Tratamentos/>
+        <Patologias/>
+        <ConhecaMais/>
       </div>
     </>
   );

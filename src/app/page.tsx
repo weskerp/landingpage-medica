@@ -38,7 +38,6 @@ export default function Home() {
       </Head>
       <div className="min-h-screen bg-gray-100 flex flex-col items-center">
         <HeroSection/>
-
         <CardSection/>
         <Carousel/>          
         <Depoimentos/>    
